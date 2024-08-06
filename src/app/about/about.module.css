@@ -1,0 +1,11 @@
+.page button {
+    border: 10px solid black;
+}
+
+.page h1 {
+    font-size: 3em;
+}
+
+.title {
+    color: red;
+}
