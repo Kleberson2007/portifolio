@@ -1,10 +1,11 @@
 'use client';
+import Link from "next/link";
 import "./blog.module.css"
 
 export default function Pagina2(){
     return(
         <>
-        <h1>blog</h1>
+        <button><Link href={"/home"}>Te falei</Link></button>
         </>
     )
 }
