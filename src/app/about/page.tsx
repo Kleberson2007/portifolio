@@ -2,11 +2,11 @@
 import Link from "next/link";
 import s from "./about.module.css"
 
-export default function Pagina2(){
+export default function about(){
     return(
         <div className={s.about}>
-            <h1 id='title'>Título aqui</h1>
-            <button><Link href={"/home"}>Te falei</Link></button>
+            <h1 className={s.tittle}>Título aqui</h1>
+            <a href={"/home"}>Te falei</a>
         </div>
     )
 }

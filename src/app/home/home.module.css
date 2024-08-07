@@ -1,4 +1,12 @@
+.home * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .home {
     background-color: blue;
 }
 
+.titulo {
+    font-size: 3em;
+}
