@@ -6,7 +6,7 @@ export default function about(){
     return(
         <div className={s.about}>
             <h1 className={s.tittle}>Título aqui</h1>
-            <a href={"/home"}>Te falei</a>
+            <a href={"/contador"}>Te falei</a>
         </div>
     )
 }

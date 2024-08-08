@@ -1,6 +1,6 @@
 'use client';
 import Link from "next/link";
-import s from "./home.module.css"
+import s from "./contador.module.css"
 import React, { useEffect, useState, useTransition } from 'react';
 
 export default function home(){
@@ -78,23 +78,25 @@ export default function home(){
         }
 
     return (
-        <section>
-            <h1>Contador</h1>
-            <button className='aleatorio' onClick={numeroaleatorio}>aleatório (-100.00 a 100.000)</button>
-            <p className='animated'>{numero}</p>
-            <div className="botoes">
-            <button className='negativos' onClick={menos10000}>-10000</button>
-            <button className='negativos' onClick={menos1000}>-1000</button>
-            <button className='negativos' onClick={menos100}>-100</button>
-            <button className='negativos' onClick={menos10}>-10</button>
-            <button className='negativos' onClick={menos1}>-1</button>
-            <button className='positivos' onClick={mais1}>+1</button>
-            <button className='positivos' onClick={mais10}>+10</button>
-            <button className='positivos' onClick={mais100}>+100</button>
-            <button className='positivos' onClick={mais1000}>+1000</button>
-            <button className='positivos' onClick={mais10000}>+10000</button>
-            </div>
-            <button className='zerar' onClick={zerar}>zerar</button>
-        </section>
+        <body>
+            <section className={s.section}>
+                <h1>Contador</h1>
+                <button className='aleatorio' onClick={numeroaleatorio}>aleatório (-100.00 a 100.000)</button>
+                <p className='animated'>{numero}</p>
+                <div className="botoes">
+                    <button className='negativos' onClick={menos10000}>-10000</button>
+                    <button className='negativos' onClick={menos1000}>-1000</button>
+                    <button className='negativos' onClick={menos100}>-100</button>
+                    <button className='negativos' onClick={menos10}>-10</button>
+                    <button className='negativos' onClick={menos1}>-1</button>
+                    <button className='positivos' onClick={mais1}>+1</button>
+                    <button className='positivos' onClick={mais10}>+10</button>
+                    <button className='positivos' onClick={mais100}>+100</button>
+                    <button className='positivos' onClick={mais1000}>+1000</button>
+                    <button className='positivos' onClick={mais10000}>+10000</button>
+                </div>
+                <button className='zerar' onClick={zerar}>zerar</button>
+            </section>
+        </body>
     )
 }
