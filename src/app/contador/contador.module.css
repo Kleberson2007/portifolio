@@ -1,56 +1,16 @@
-.section * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: arial;
-}
-
-.body {
-    min-height: 100vh;
-    background-color: black;
-    color: white;
-    display: grid;
-    place-items: center;
-}
-
-.section {
-    padding: 30px;
-    text-align: center;
-    border-radius: 20px;
-    border: 10px solid darkred;
-}
-
-.section .botoes {
+.botoes {
     margin-bottom: 30px;
 }
 
-.section .botoes button {
+.botoes button {
     margin: 20px;
 }
 
-.section p.animated {
+p.animated {
     animation-name: numeroanimaçao;
 }
 
-.section p {
-    font-size: 200px;
-    padding-top: 10px;
-    animation-name: numeroanimaçao;
-    animation-duration: 150ms;
-}
-
-.section h1 {
-    font-size: 100px;
-    padding-bottom: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-}
-
-.section button {
-    padding: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.section .zerar {
+.zerar {
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
@@ -58,7 +18,7 @@
     transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
 }
 
-.section .zerar:hover {
+.zerar:hover {
     background-color: yellow;
     padding: 13px;
     border-radius: 30px;
@@ -66,7 +26,7 @@
     transition: 0.5s;
 }
 
-.section .negativos {
+.negativos {
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
@@ -74,7 +34,7 @@
     transition: background-color 0.5s, padding 0.5s, border-radius 0.5s, font-size 0.5s;
 }
 
-.section .negativos:hover {
+.negativos:hover {
     background-color: red;
     padding: 13px;
     border-radius: 30px;
@@ -82,7 +42,7 @@
     transition: 0.5s;
 }
 
-.section .positivos {
+.positivos {
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
@@ -91,7 +51,7 @@
 }
 
 
-.section .positivos:hover {
+.positivos:hover {
     background-color: limegreen;
     padding: 13px;
     border-radius: 30px;
@@ -99,7 +59,7 @@
     transition: 0.5s;
 }
 
-.section .aleatorio{
+.aleatorio{
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
@@ -108,7 +68,7 @@
 }
 
 
-.section .aleatorio:hover {
+.aleatorio:hover {
     background-color: yellow;
     padding: 13px;
     border-radius: 30px;

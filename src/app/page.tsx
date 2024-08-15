@@ -8,7 +8,8 @@ export default function Home() {
       <div className={s.tittle}>
         <h1>meus projetos</h1>
       </div>
-        <a href={"/about"}>Nada aqui</a>
+        <a href={"/lista"}>lista de tarefas</a>
+        <a href={"/contador"}>Contador</a>
       </div>
   );
 }
