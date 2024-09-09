@@ -8,8 +8,8 @@ export default function Home() {
         <h1>meus projetos</h1>
       </div>
       <div id="projetos">
-        <a id="lista" href={"/lista"}>lista de tarefas</a>
-        <a id="contador" href={"/contador"}>Contador</a>
+        <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
+        <a className="projeto" id="contador" href={"/contador"}>Contador</a>
       </div>
     </div>
   );
