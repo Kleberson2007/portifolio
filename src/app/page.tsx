@@ -10,6 +10,7 @@ export default function Home() {
       <div id="projetos">
         <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
         <a className="projeto" id="contador" href={"/contador"}>Contador</a>
+        <p className="projeto" id="pdf">mmmmmmmmmmmmmmmmmm</p>
       </div>
     </div>
   );
