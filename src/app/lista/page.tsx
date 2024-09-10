@@ -17,6 +17,12 @@ export default function Listadetarefas() {
   }
 
   function editar(index: number) {
+    if (edicao.texto === "") {
+      return
+    } 
+    if (edicao.texto === " ") {
+      return
+    } 
     const novasTarefas = [...tarefas];
     novasTarefas[index] = edicao.texto;
     setTarefas(novasTarefas);
