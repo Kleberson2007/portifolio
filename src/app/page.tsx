@@ -11,7 +11,7 @@ export default function Home() {
         <div id="projetos">
           <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
           <a className="projeto" id="contador" href={"/contador"}>Contador</a>
-          <p className="projeto" id="previsor">previsor do futuro</p>
+          <a className="projeto" id="previsor" href={"./previsor"}>previsor do futuro</a>
           <p className="projeto" id="previsor">4</p>
           <p className="projeto" id="previsor">5</p>
           <p className="projeto" id="previsor">6</p>
