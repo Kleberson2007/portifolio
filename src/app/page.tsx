@@ -17,6 +17,10 @@ export default function Home() {
           <p className="projeto" id="previsor">6</p>
           <p className="projeto" id="previsor">7</p>
           <p className="projeto" id="previsor">8</p>
+          <p className="projeto" id="previsor">9</p>
+          <p className="projeto" id="previsor">10</p>
+          <p className="projeto" id="previsor">11</p>
+          <p className="projeto" id="previsor">12</p>
         </div>
       </div>
     </div>
