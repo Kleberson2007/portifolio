@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Site mágico",
-  description: "'É confiavel..?'"
+  title: "Lista de tarefas",
+  description: "crie e organize suas tarefas!"
 };
 
 export default function RootLayout({
@@ -17,7 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="./favicon.ico"></link>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
