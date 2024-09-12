@@ -1,6 +1,6 @@
 'use client'
 import "./globals.css";
-import s from "./page.module.css"
+import s from "./lista.module.css"
 
 import { useState } from 'react';
 
