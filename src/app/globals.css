@@ -21,26 +21,34 @@ body {
     border: 3px solid black;
 }
 
-#projetos {
+#projetos-area {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     height: 80%;
-    width: 80%;
+    width: 100%;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 90%;
+    height: 100%;
 }
 
 .projeto {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    height: 20%;
     border: 2px solid black;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
+    text-align: center;
 }
 
-.tittle {
+.title {
     display: flex;
     justify-content: center;
     width: 100%;

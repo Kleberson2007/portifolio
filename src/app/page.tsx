@@ -7,10 +7,17 @@ export default function Home() {
       <div className="tittle">
         <h1>meus projetos</h1>
       </div>
-      <div id="projetos">
-        <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
-        <a className="projeto" id="contador" href={"/contador"}>Contador</a>
-        <p className="projeto" id="pdf">mmmmmmmmmmmmmmmmmm</p>
+      <div id="projetos-area">
+        <div id="projetos">
+          <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
+          <a className="projeto" id="contador" href={"/contador"}>Contador</a>
+          <p className="projeto" id="previsor">previsor do futuro</p>
+          <p className="projeto" id="previsor">4</p>
+          <p className="projeto" id="previsor">5</p>
+          <p className="projeto" id="previsor">6</p>
+          <p className="projeto" id="previsor">7</p>
+          <p className="projeto" id="previsor">8</p>
+        </div>
       </div>
     </div>
   );
