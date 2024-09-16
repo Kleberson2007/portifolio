@@ -12,15 +12,15 @@ export default function Home() {
           <a className="projeto" id="lista" href={"/lista"}>lista de tarefas</a>
           <a className="projeto" id="contador" href={"/contador"}>Contador</a>
           <a className="projeto" id="previsor" href={"./previsor"}>previsor do futuro</a>
-          <p className="projeto" id="previsor">4</p>
-          <p className="projeto" id="previsor">5</p>
-          <p className="projeto" id="previsor">6</p>
-          <p className="projeto" id="previsor">7</p>
-          <p className="projeto" id="previsor">8</p>
-          <p className="projeto" id="previsor">9</p>
-          <p className="projeto" id="previsor">10</p>
-          <p className="projeto" id="previsor">11</p>
-          <p className="projeto" id="previsor">12</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
+          <p className="projeto" id="">...</p>
         </div>
       </div>
     </div>
