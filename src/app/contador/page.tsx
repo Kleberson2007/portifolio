@@ -63,18 +63,12 @@ export default function Contador(){
             console.log(numero)
         }
 
-        function mais1000() {
-            setNumero(numero + 1000)
-            console.log(numero)
-        }
-
-        function mais10000() {
-            setNumero(numero + 10000)
-            console.log(numero)
-        }
-
         function zerar() {
             setNumero(numero - numero)
+        }
+
+        function mais(num: number) {
+            setNumero(numero + num)
         }
 
     return (
@@ -92,8 +86,8 @@ export default function Contador(){
                     <button className={s.positivos} onClick={mais1}>+1</button>
                     <button className={s.positivos} onClick={mais10}>+10</button>
                     <button className={s.positivos} onClick={mais100}>+100</button>
-                    <button className={s.positivos} onClick={mais1000}>+1000</button>
-                    <button className={s.positivos} onClick={mais10000}>+10000</button>
+                    <button className={s.positivos} onClick={()=> mais(1000)}>+1000</button>
+                    <button className={s.positivos} onClick={()=> mais(10000)}>+10000</button>
                 </div>
                 <button className={s.zerar} onClick={zerar}>zerar</button>
             </section>
